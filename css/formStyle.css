@@ -46,10 +46,6 @@
   transition: color 0.5s;
 }
 
-.cardContainer:hover {
-  border: 1px solid rgb(45, 93, 226);
-}
-
 .cardContainer:hover ion-icon {
   color: rgb(45, 93, 226);
 }
