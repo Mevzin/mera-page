@@ -219,7 +219,7 @@ html {
   width: 80%;
 }
 
-.inputs {
+.inputsForm {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -227,7 +227,7 @@ html {
   margin-top: 30px;
 }
 
-.inputs input {
+.inputsForm input {
   width: 200px;
   height: 30px;
   margin: 10px;
