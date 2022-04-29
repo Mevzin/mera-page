@@ -145,17 +145,57 @@ a {
 
 .cardContainer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 300px;
   height: 450px;
   background-color: #fff;
+  border: 0px solid rgb(10, 67, 224);
   border-radius: 10px;
-  border:0.2px solid rgb(10, 67, 224);
-  transition: 0.3s;
+  transition: color 0.5s;
+}
+
+.cardContainer ion-icon {
+  font-size: 3em;
+  color: #3e4b9c;
+}
+
+.cardContainer h2 {
+  font-size: 1.25em;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #5a5a5d;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.cardContainer p {
+  font-size: 1em;
+  font-family: Roboto;
+  font-weight: regular;
+  color: #5a5a5d;
+  margin-top: 10px;
+  text-align: center;
+  padding: 0 70px;
+  transition: color 0.5s;
 }
 
 .cardContainer:hover {
   border:1px solid rgb(45, 93, 226);
+  
+}
+
+.cardContainer:hover ion-icon {
+  color: rgb(45, 93, 226);
+}
+
+.loanSimuleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(230, 227, 227);
 }
