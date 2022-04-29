@@ -19,12 +19,12 @@
           </a>
         </div>
         <div class="buttons">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
+          <a href="#home">Inicio</a>
+          <a href="#aboutServices">Sobre</a>
+          <a href="#simule">Simule já</a>
         </div>
       </div>
-      <div class="bannerContainer">
+      <div id="home" class="bannerContainer">
         <div class="bannerImage">
           <img src="assets/secondaryBanner.jpg" alt="banner" />
         </div>
@@ -36,7 +36,7 @@
           </p>
         </div>
       </div>
-      <div class="aboutServiceContainer">
+      <div id="aboutServices" class="aboutServiceContainer">
         <h1>Etapas dos nossos serviços:</h1>
         <div class="cards">
           <div class="cardContainer">
@@ -65,8 +65,23 @@
           </div>
         </div>
       </div>
-      <div class="loanSimuleContainer">
-
+      <div id="simule" class="loanSimuleContainer">
+        <h1>Simule Já</h1>
+        <div class="formSimule">
+          <form action="">
+            <div class="inputs">
+              <input type="text" placeholder="Nome" />
+              <input type="text" placeholder="CPF" />
+              <input type="text" placeholder="Telefone" />
+              <input type="text" placeholder="E-mail" />
+              <input type="text" placeholder="Valor do empréstimo" />
+              <input type="text" placeholder="Prazo" />
+            </div>
+            <div class="buttonSub">
+              <button type="submit">Simular</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <script src="./js/main.js"></script>
